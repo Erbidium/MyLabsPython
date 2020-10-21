@@ -1,4 +1,4 @@
-from math import sqrt
+from math import sqrt                     # Підключення функції sqrt модуля math
 
 katet1 = float(input("Введіть катет: "))  # Введення першого катета
 hypotenuse = float(input("Введіть гіпотенузу: "))  # Введення гіпотенузи
