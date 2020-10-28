@@ -46,8 +46,8 @@ else:
                             print('Such triangle doesn\'t exist!')
                         elif math.isclose(side1, side2) or math.isclose(side1, side3) or math.isclose(side2, side3):
                             if math.isclose(side1, side2) and math.isclose(side1, side3) and math.isclose(side2, side3):
-                                print('This triangle is equilateral!')#рівносторонній трикутник
+                                print('This triangle is equilateral!')
                             else:
-                                print('This triangle is isosceles!')#рівнобедрений трикутник
+                                print('This triangle is isosceles!')
                         else:
-                            print('This triangle is versatile!')#різносторонній трикутник
+                            print('This triangle is versatile!')
