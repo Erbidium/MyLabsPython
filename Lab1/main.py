@@ -11,7 +11,7 @@ else:
     hypotenuse = (input('Enter a hypotenuse: '))
     if not (re.fullmatch(r'^[+-]?(\d*[.])?\d+$', hypotenuse) or re.fullmatch(r'^[+-]?\d+[.]?$', hypotenuse)):
         print('Your data is incorrect!')
-    elif float(hypotenuse < katet1):
+    elif float(hypotenuse) < katet1:
         print('Such right triangle doesn\'t exist!')
     else:
         hypotenuse = float(hypotenuse)
