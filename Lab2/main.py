@@ -3,7 +3,7 @@ import math
 x1 = float(input('Enter the coordinate x of the first point: '))
 y1 = float(input('Enter the coordinate y of the first point: '))
 x2 = float(input('Enter the coordinate x of the second point: '))
-y2 = float(input('Enter the coordinate y of the first point: '))
+y2 = float(input('Enter the coordinate y of the second point: '))
 x3 = float(input('Enter the coordinate x of the third point: '))
 y3 = float(input('Enter the coordinate y of the third point: '))
 side1 = math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
