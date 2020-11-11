@@ -1,7 +1,7 @@
 import math
 
 x = 0.56
-e = 0.00001
+e = 1e-5
 n = 1
 yZn = math.sin(x)
 y = 1/yZn
