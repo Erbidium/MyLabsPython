@@ -14,6 +14,6 @@ while True:
     yZn += math.sin(x) * (1 / (n**2))
     y = 1 / yZn
     print("y(%-3d)=%0.8f" % (n, y))
-    if not math.fabs(y-yPrev) > e:
+    if not math.fabs(y-yPrev) >= e:
         break
 print("\nResult:\ny=%0.8f" % y)
