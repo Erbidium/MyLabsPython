@@ -8,9 +8,9 @@ def minimal(num1, num2):
         return num1
 
 
-a = float(input())
-b = float(input())
+a = float(input('Please, enter number a: '))
+b = float(input('Please, enter number b: '))
 U = minimal(a, b)
 V = minimal(a * b, a + b)
 W = min(U + V ** 2, pi)
-print('U=', U, '\nV=', V, '\nW=', W)
+print('U=%.2f\nV=%.2f\nW=%.2f' % (U, V, W))
