@@ -7,6 +7,6 @@ def getSumOfNumbersFromStr(strWithNumbers):
         else:
             sum += int(currentNumber)
             currentNumber = '0'
-        if(i==len(strWithNumbers)):
+        if(i==len(strWithNumbers)-1):
             sum += int(currentNumber)
     return sum
